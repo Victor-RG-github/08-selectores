@@ -7,6 +7,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 @NgModule({
   declarations: [SelectorPageComponent],
   imports: [CommonModule, CountriesRoutingModule, ReactiveFormsModule],
+  providers: [],
   exports: [],
 })
 export class CountriesModule {}
